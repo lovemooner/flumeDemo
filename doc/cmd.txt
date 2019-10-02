@@ -1,0 +1,5 @@
+#2mysql
+./bin/flume-ng agent -c ./conf -f ./conf/2mysql.conf -n agent1 -Dflume.root.logger=INFO,console &
+
+#2es
+./bin/flume-ng agent -c ./conf -f ./conf/2es.conf  -C /usr/local/flume-1.8/lib/es/* -n agent1 -Dflume.root.logger=INFO,console

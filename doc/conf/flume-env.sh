@@ -1,0 +1,1 @@
+FLUME_CLASSPATH="/usr/local/flume-1.9.0/libext/*"
